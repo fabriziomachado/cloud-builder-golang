@@ -1,0 +1,8 @@
+version: '3'
+services:
+  codeeducation:
+    container_name: go-add
+    build: .
+    volumes:
+      - ./src/calculator:/go/src/calculator
+    working_dir: /go/src/calculator

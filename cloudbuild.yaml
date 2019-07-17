@@ -1,0 +1,11 @@
+steps:
+
+- id: 'Compilando a app'
+  name: 'gcr.io/cloud-builders/go'
+  args: ['install', 'calculator']
+  env: ['GOPATH=.']
+
+- id: 'Testando a app...'
+  name: 'gcr.io/cloud-builders/go'
+  args: ['test', '-v','./...']
+  env: ['GOPATH=.']
