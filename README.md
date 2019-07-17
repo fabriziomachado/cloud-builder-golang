@@ -40,6 +40,7 @@ func TestAdd(t *testing.T) {
 ## Imagem registrada no GPC
 
 $ docker run gcr.io/codeeducation-245712/calculator
-``
+
+```
 Total da Soma de 5 + 5 é 10
 ```
