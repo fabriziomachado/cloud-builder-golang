@@ -2,7 +2,7 @@
 
 #### 1) Você deverá criar uma simples aplicação que possua uma função chamada soma que receberá dois parâmetros e retornará a adição desses dois valores.
 
-```
+```golang
 package main
 
 import ("fmt")
@@ -18,9 +18,9 @@ func main () {
 }
 ```
 
-####2) Crie um teste unitário para essa função.
+#### 2) Crie um teste unitário para essa função.
 
-```
+```go
 package main
 
 import "testing"
@@ -35,7 +35,7 @@ func TestAdd(t *testing.T) {
 ```
 
 #### 3) Ative um processo de CI que execute os seguintes passos:
-
+![CI](/ci-gcp.png)
 
 ## Imagem registrada no GPC
 
