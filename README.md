@@ -1,4 +1,4 @@
-# GoLang in  GCP Cloud Build
+# GoLang in GCP Cloud Build.
 
 #### 1) Você deverá criar uma simples aplicação que possua uma função chamada soma que receberá dois parâmetros e retornará a adição desses dois valores.
 
